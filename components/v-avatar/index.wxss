@@ -1,0 +1,17 @@
+.v-avatar {
+  font-size: 0;
+  line-height: 1;
+}
+
+.v-avatar_img, .v-avatar_text {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.v-avatar_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+<view wx:if="{{show}}" class="v-noticebar {{mode ? 'v-noticebar--within-icon' : ''}}" style="color: {{color}};background-color: {{bgColor}}">
+  <!-- 左图标 -->
+  <view wx:if="{{leftIcon}}" class="v-noticebar__left-icon">
+    <image src="{{leftIcon}}" />
+  </view>
+  <!-- 文字 -->
+  <block>
+    <navigator class="v-noticebar__content-wrap" wx:if="{{mode && mode === 'link'}}" url="{{url}}" open-type="{{openType}}">
+      <view class="v-noticebar__content" animation="{{animationData}}">{{text}}</view>
+    </navigator>
+
+    <view wx:else class="v-noticebar__content-wrap">
+      <view class="v-noticebar__content" animation="{{animationData}}">{{text}}</view>
+    </view>
+  </block>
+  <!-- 右点击图标 -->
+  <block wx:if="{{mode}}">
+    <v-icon wx:if="{{mode === 'close'}}" class="v-noticebar__right-icon" type="close" bindtap="_handleButtonClick" />
+    <navigator wx:if="{{mode === 'link'}}" url="{{url}}" open-type="{{openType}}">
+      <v-icon class="v-noticebar__right-icon" type="arrow_right" />
+    </navigator>
+  </block>
+
+</view>

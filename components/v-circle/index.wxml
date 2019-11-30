@@ -1,0 +1,6 @@
+<view class="v-class v-circle" style="{{style}}">
+  <canvas style="{{style}}" canvas-id="circle" />
+  <view class="v-circle__inner">
+    <slot />
+  </view>
+</view>

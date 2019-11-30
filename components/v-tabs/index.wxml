@@ -1,0 +1,23 @@
+<view class="v-tabs {{fixed ? 'v-tabs-fixed' : ''}}" style="height: {{height}}rpx">
+  <!-- 可滚动 -->
+  <scroll-view wx:if="{{scroll}}" id="scroll-view" class="v-tab v-tab-scroll" scroll-left="{{scrollLeft}}" scroll-x scroll-with-animation>
+    <template is="v-tab-list" data="{{list, tabId, height}}" />
+  </scroll-view>
+
+  <!-- 默认 -->
+  <view wx:else class="v-tab">
+    <template is="v-tab-list" data="{{list, tabId, height}}" />
+  </view>
+</view>
+
+<!-- 插入内容 -->
+<slot />
+
+<!-- template -->
+<template name="v-tab-list">
+  <view wx:for="{{list}}" wx:key="id" class="v-tab_item {{tabId == item.id ? 'on' : ''}}" id="item-{{item.id}}" data-id="{{item.id}}" bindtap="onChange">
+    <view class="v-tab_title" style="{{height ? 'height:' + height + 'rpx;line-height:' + height + 'rpx' : ''}}">
+      {{item.title}}
+    </view>
+  </view>
+</template>

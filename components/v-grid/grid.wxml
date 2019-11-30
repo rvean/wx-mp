@@ -1,0 +1,16 @@
+<view class="v-grid {{bordered ? 'v-grid--bordered' : ''}} {{square ? 'v-grid--square' : ''}}" hover-class="v-grid--hover" style="width: {{ width }}" bindtap="onTap">
+  <view class="v-grid__content">
+    <view class="v-grid__inner">
+      <view class="v-grid__hd">
+        <image class="v-grid__thumb" src="{{ thumb }}" wx:if="{{ thumb }}" />
+        <block wx:else>
+          <slot name="header" />
+        </block>
+      </view>
+      <view class="v-grid__bd">
+        <view class="v-grid__label" wx:if="{{ label }}">{{ label }}</view>
+        <slot />
+      </view>
+    </view>
+  </view>
+</view>

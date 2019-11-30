@@ -1,0 +1,11 @@
+<view class="page">
+
+  <block wx:if="{{userInfo.avatarUrl}}">
+    <image class="user-img" mode="aspectFill" src="{{userInfo.avatarUrl}}" />
+    <view class="user-name">{{userInfo.nickName}}</view>
+  </block>
+
+
+  <button wx:else class="v-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取头像昵称</button>
+
+</view>

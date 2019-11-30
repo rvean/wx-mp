@@ -1,0 +1,8 @@
+<view class="v-radio" catchtap="radioChange">
+
+  <label style="background:{{bgColor}}" class="v-class v-radio_cell v-radio_{{position}} {{border ? 'v-radio_border' :''}}">
+    <radio value="{{value}}" checked="{{checked}}" color="{{checked?color:''}}" disabled="{{disabled}}" class="v-radio_radio" />
+    <view class="v-radio_title">{{value}}</view>
+  </label>
+
+</view>

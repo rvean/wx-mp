@@ -1,0 +1,29 @@
+<view class="v-swipe-cell v-class">
+  <view class="v-swipe-cell_item" bindtouchstart="handlerTouchstart" bindtouchmove="handlerTouchmove" bindtouchend="handlerTouchend" style="{{parse.setPosition(position)}}">
+    <!-- 内容 -->
+    <view class="v-swipe-cell_content">
+      <slot name="content" />
+    </view>
+    <!-- actions传入的button -->
+    <view class="v-swipe-cell_right" wx:if="{{actions.length}}" catchtouchend="loop">
+      <view class="v-swipe-cell_right-item" wx:for="{{actions}}" style="{{parse.setStyle(item)}};width:{{item.width}}px;" wx:key="{{index}}" data-index="{{index}}" bind:tap="handlerButton">{{item.name}}</view>
+    </view>
+    <!-- 自定义button -->
+    <view class="v-swipe-cell_right" catchtouchend="loop" bind:tap="handlerParentButton" wx:if="{{!actions.length}}" style="width:{{operateWidth}}px;right:-{{operateWidth}}px;">
+      <slot name="button" />
+    </view>
+
+  </view>
+</view>
+
+<wxs module="parse">
+  module.exports = {
+    setStyle: function(item) {
+      var defaults = '#f7f7f7';
+      return 'background:' + (item.background ? item.background : defaults) + ';' + 'color:' + item.color;
+    },
+    setPosition: function(position) {
+      return 'transform:translate(' + position.pageX + 'px,0);';
+    }
+  }
+</wxs>

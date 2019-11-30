@@ -1,0 +1,37 @@
+.v-counter {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.v-counter-input {
+  font-size: 24rpx;
+  width: 70rpx;
+  min-height: 48rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  color: #333;
+  border-top: 2rpx solid #ddd;
+  border-bottom: 2rpx solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.v-counter-btn {
+  width: 60rpx;
+  height: 48rpx;
+  line-height: 42rpx;
+  font-size: 35rpx;
+  color: #555;
+  border-radius: 4rpx 0 0 4rpx;
+  border: 2rpx solid #ddd;
+}
+
+.v-counter-btn:last-child {
+  border-radius: 0 4rpx 4rpx 0;
+}
+
+.v-counter-btn.disabled {
+  color: #ccc;
+}

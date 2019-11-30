@@ -1,0 +1,73 @@
+.v-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 15rpx 30rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+
+.v-input_br {
+  position: relative;
+}
+
+.v-input_br::after {
+  content: ' ';
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: center;
+  left: 30rpx;
+  bottom: 0;
+  width: 100%;
+  transform: scaleY(0.5);
+  border-bottom: 2rpx solid #eaeaea;
+}
+
+.v-input_title {
+  min-width: 140rpx;
+  padding-right: 20rpx;
+}
+
+.v-input_input {
+  flex: 1;
+  height: auto;
+  min-height: 44rpx;
+  line-height: 1.5;
+}
+
+.v-input_textarea {
+  padding: 5rpx 0;
+}
+
+.v-input_wrapped {
+  margin: 20rpx 30rpx;
+  border: 2rpx solid #eaeaea;
+  border-radius: 4rpx;
+}
+
+.v-input_wrapped::after {
+  border: 0;
+}
+
+.v-input_error {
+  color: #ed3f14;
+}
+
+.v-input_input-right {
+  text-align: right;
+}
+
+.v-input_wrapped.v-input_error {
+  border-color: #ed3f14;
+}
+
+.v-input_clear {
+  position: relative;
+  z-index: 3;
+  padding: 6rpx 15rpx;
+  padding-right: 0;
+  line-height: 1;
+  font-size: 0;
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/tabBar/index",
+    "pages/tabBar/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Rvean",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#425d7c",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/a1.png",
+        "selectedIconPath": "images/tabbar/a1_on.png"
+      },
+      {
+        "pagePath": "pages/tabBar/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/a2.png",
+        "selectedIconPath": "images/tabbar/a2_on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

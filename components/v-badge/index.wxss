@@ -1,0 +1,26 @@
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  min-width: 30rpx;
+  height: 30rpx;
+  border-radius: 30rpx;
+  padding: 0 8rpx;
+  font-size: 22rpx;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  background: #f5342f;
+  overflow: hidden;
+}
+
+.badge-dot {
+  min-width: auto;
+  width: 16rpx;
+  height: 16rpx;
+  padding: 0;
+  border-radius: 50%;
+  line-height: 1;
+  font-size: 0;
+}

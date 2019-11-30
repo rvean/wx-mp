@@ -1,0 +1,11 @@
+<view class="v-sticky-item">
+  <view class="v-class v-sticky-item_header {{isFixed === true ? 'v-sticky-item_fixed' : ''}}">
+    <view class="v-sticky-item_title">
+      <slot name="title" />
+    </view>
+  </view>
+
+  <view class="v-sticky-item_content">
+    <slot name="content" />
+  </view>
+</view>

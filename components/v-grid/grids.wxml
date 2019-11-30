@@ -1,0 +1,3 @@
+<view class="v-grids {{bordered ? 'v-grids--bordered' : ''}}">
+  <slot />
+</view>

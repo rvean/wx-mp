@@ -1,0 +1,5 @@
+<view class="v-counter v-counter-{{size}}">
+  <view class="v-counter-btn {{value <= min ? 'disabled' : ''}}" data-disabled="{{value <= min}}" bindtap="handleMinus">-</view>
+  <input class="v-counter-input {{min >= max ? 'disabled' : ''}}" type="number" value="{{value}}" disabled="{{min >= max}}" bindblur="handleBlur" />
+  <view class="v-counter-btn {{value >= max ? 'disabled' : ''}}" data-disabled="{{value >= max}}" bindtap="handlePlus">+</view>
+</view>

@@ -1,0 +1,39 @@
+.v-toptip {
+  display: block;
+  width: 100%;
+  min-height: 64rpx;
+  line-height: 2.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #2d8cf0;
+  color: #fff;
+  text-align: center;
+  font-size: 28rpx;
+  z-index: 1010;
+  opacity: 0;
+  transform: translateZ(0) translateY(-100%);
+  transition: all 0.4s ease-in-out;
+}
+
+.v-toptip_show {
+  transform: translateZ(0) translateY(0);
+  opacity: 1;
+}
+
+.v-toptip_default {
+  background: #2d8cf0;
+}
+
+.v-toptip_success {
+  background: #19be6b;
+}
+
+.v-toptip_warning {
+  background: #f90;
+}
+
+.v-toptip_error {
+  background: #ed3f14;
+}

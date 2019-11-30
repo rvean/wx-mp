@@ -1,0 +1,17 @@
+<view class="v-upload v-upload--{{listType}} {{disabled ? 'v-upload--disabled' : ''}}">
+  <view class="v-upload__files">
+    <block wx:if="{{listType === 'picture' && showUploadList && uploadFileList.length}}">
+      <block wx:for="{{uploadFileList}}" wx:for-item="file" wx:key="uid">
+        <view class="v-upload__file {{file.status ? 'v-upload__file--' + file.status : ''}}" data-file="{{file}}" data-index="{{index}}" bindtap="onPreview">
+          <image class="v-upload__thumb" src="{{file.url}}" />
+          <view class="v-upload__remove" data-file="{{file}}" data-index="{{index}}" catchtap="onRemove" wx:if="{{showRemoveIcon}}"></view>
+        </view>
+      </block>
+    </block>
+    <view class="v-upload__select" bindtap="onSelect" wx:if="{{uploadMax === -1 || uploadMax > uploadFileList.length}}">
+      <view class="v-upload__button">
+        <slot />
+      </view>
+    </view>
+  </view>
+</view>

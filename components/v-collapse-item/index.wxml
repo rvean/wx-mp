@@ -1,0 +1,11 @@
+<view id="{{name}}" class="v-class v-collapse-item">
+  <!-- 标题 -->
+  <view class="v-collapse-item_title-wrap {{showContent ? 'v-collapse-item_title-br' : ''}}" bindtap="trigger">
+    <text class="v-class-title v-collapse-item_title">{{title}}</text>
+    <text class="v-arrow-down {{showContent ? 'v-collapse-item_arrow-show' : ''}}"></text>
+  </view>
+  <!-- 正文内容 -->
+  <view class="v-class-content v-collapse-item_content {{showContent}}">
+    <slot name="content" />
+  </view>
+</view>

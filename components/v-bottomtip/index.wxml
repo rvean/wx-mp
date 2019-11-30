@@ -1,0 +1,11 @@
+<view class="v-class v-bottomtip {{loading ? '' : 'v-bottomtip-line'}}">
+  <!-- 转圈动画 -->
+  <view class="v-bottomtip-loading" wx:if="{{loading}}"></view>
+  <!-- 文字 / 点 -->
+  <view class="v-bottomtip-tip">
+    <view class="v-bottomtip-text" wx:if="{{tip !== ''}}">{{tip}}</view>
+    <view wx:elif="{{tip === '' && loading}}">正在加载</view>
+    <view wx:else class="v-bottomtip-empty"></view>
+  </view>
+
+</view>

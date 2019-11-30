@@ -1,0 +1,6 @@
+<view class="v-index-item v-class">
+  <view class="v-index-item_header">{{name}}</view>
+  <view class="v-index-item_content">
+    <slot />
+  </view>
+</view>

@@ -1,0 +1,43 @@
+.v-noticebar {
+  display: flex;
+  padding: 18rpx 20rpx;
+  font-size: 24rpx;
+  line-height: 1.5;
+}
+
+.v-noticebar--within-icon {
+  position: relative;
+  padding-right: 60rpx;
+}
+
+.v-noticebar__left-icon {
+  height: 36rpx;
+  min-width: 40rpx;
+  padding-top: 2rpx;
+  box-sizing: border-box;
+}
+
+.v-noticebar__left-icon>image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.v-noticebar__right-icon {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 30rpx;
+  line-height: 1;
+}
+
+.v-noticebar__content-wrap {
+  position: relative;
+  flex: 1;
+  height: 36rpx;
+  overflow: hidden;
+}
+
+.v-noticebar__content {
+  position: absolute;
+  white-space: nowrap;
+}

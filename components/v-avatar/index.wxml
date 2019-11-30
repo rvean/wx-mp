@@ -1,0 +1,7 @@
+<view class="v-avatar">
+
+  <image wx:if="{{src}}" class="v-class v-avatar_img" mode="{{mode}}" src="{{src}}" style="width:{{size}}rpx; height:{{size}}rpx; border-radius:{{radius}};" />
+  <!-- 文字头像 -->
+  <view wx:else class="v-class v-avatar_text" style="width:{{size}}rpx; height:{{size}}rpx; border-radius:{{radius}}; background:{{bgColor}};font-size:{{fontSize}}rpx; color: {{color}};">{{firstName}}</view>
+
+</view>

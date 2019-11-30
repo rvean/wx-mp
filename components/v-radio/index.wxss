@@ -1,0 +1,29 @@
+.v-radio_cell {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 22rpx 30rpx;
+  overflow: hidden;
+  line-height: 1;
+  font-size: 28rpx;
+}
+
+.v-radio_border::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 30rpx;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #eaeaea;
+  border-bottom-width: 1px;
+}
+
+.v-radio_right {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}

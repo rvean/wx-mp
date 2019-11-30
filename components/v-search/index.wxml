@@ -1,0 +1,21 @@
+<form report-submit="{{true}}" bindsubmit="onSubmit">
+
+  <view class="v-search">
+    <view class="v-search_form v-search_content-{{align}}" style="border-radius:{{radius}}rpx;background: {{bgColor}};">
+      <!-- 搜索图标 -->
+      <icon wx:if="{{showIcon}}" color="{{iconColor}}" class="v-search_icon" type="search" size="14" />
+      <text wx:if="{{mode == 'static'}}" class="v-search_text" style="color: {{phColor}}">{{placeholder}}</text>
+
+      <block wx:if="{{mode == 'normal'}}">
+        <input class="v-search_input" style="color: {{color}};" placeholder-style="color: {{phColor}};" placeholder="{{placeholder}}" value="{{value}}" focus="{{focus}}" bindinput="onInput" bindconfirm="onConfirm" confirm-type="search" />
+        <!-- 清空 -->
+        <view wx:if="{{showClear && _showClear}}" class="v-search_clear" catchtap="onClear">
+          <icon type="clear" size="16" color="#d5d5d5" />
+        </view>
+      </block>
+    </view>
+
+    <button wx:if="{{mode == 'normal' && button}}" class="v-search_button" style="color:{{btnColor}};" bindtap="onConfirm" form-type="submit">{{button}}</button>
+  </view>
+
+</form>

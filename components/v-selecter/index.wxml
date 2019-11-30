@@ -1,0 +1,7 @@
+<radio-group bindchange="handleSelectChange">
+  <label class="v-select_label" wx:for="{{items}}" wx:key="value">
+    <radio class="v-select_radio" value="{{item.value}}" checked="{{item.value === checkedValue}}" />
+    <span style="color: {{item.value === checkedValue ? activeColor : ''}}">{{item.name}}</span>
+    <icon wx:if="{{item.value === checkedValue}}" color="{{activeColor}}" type="success_no_circle" size="15" />
+  </label>
+</radio-group>

@@ -1,0 +1,3 @@
+<view class="v-sticky v-class">
+  <slot />
+</view>

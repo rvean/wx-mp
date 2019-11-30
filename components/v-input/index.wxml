@@ -1,0 +1,42 @@
+<view style="background:{{bgColor}};" class="v-input v-input_{{mode}} {{border ? 'v-input_br' : ''}} {{error ? 'v-input_error' : ''}}">
+    <!-- 标题 -->
+    <view wx:if="{{title}}" class="v-input_title">{{title}}</view>
+    <!-- 输入 -->
+    <block>
+      <textarea
+        wx:if="{{type === 'textarea'}}"
+        class="v-class v-input_input v-input_textarea {{right ? 'v-input_input-right' : ''}}"
+        auto-height
+        disabled="{{disabled}}"
+        focus="{{focus}}"
+        value="{{value}}"
+        placeholder="{{placeholder}}"
+        maxlength="{{maxlength}}"
+        placeholder-style="{{placeholderStyle}}"
+        bindinput="onInput"
+        bindfocus="onFocus"
+        bindblur="onBlur"
+        bindconfirm="onConfirm"
+      ></textarea>
+
+      <input
+        wx:else
+        class="v-class v-input_input {{right ? 'v-input_input-right' : ''}}"
+        type="{{type}}"
+        disabled="{{disabled}}"
+        focus="{{focus}}"
+        value="{{value}}"
+        placeholder="{{placeholder}}"
+        maxlength="{{maxlength}}"
+        placeholder-style="{{placeholderStyle}}"
+        bindinput="onInput"
+        bindfocus="onFocus"
+        bindblur="onBlur"
+        bindconfirm="onConfirm"
+      />
+    </block>
+    <!-- 清理图标 -->
+    <view wx:if="{{showClear && clearable && !disabled}}" bindtouchstart="onClear" class="v-input_clear">
+      <icon type="clear" size="16" color="#ccc" />
+    </view>
+</view>

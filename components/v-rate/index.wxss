@@ -1,0 +1,23 @@
+.v-rate {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.v-rate-hide-input {
+  display: none;
+}
+
+.v-rate-star {
+  display: inline-block;
+}
+
+.v-rate-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12rpx;
+  font-size: 28rpx;
+}

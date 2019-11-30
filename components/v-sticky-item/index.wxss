@@ -1,0 +1,24 @@
+.v-sticky-item_header {
+  background: #eee;
+  font-size: 28rpx;
+  width: 100%;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+
+.v-sticky-item_content {
+  font-size: 28rpx;
+}
+
+.v-sticky-item_title {
+  width: 100%;
+  padding: 0 30rpx;
+  background: #eee;
+  box-sizing: border-box;
+}
+
+.v-sticky-item_fixed .v-sticky-item_title {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

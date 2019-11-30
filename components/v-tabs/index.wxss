@@ -1,0 +1,71 @@
+.v-tabs-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.v-tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: 2rpx solid #e5e5e5;
+  background: #fff;
+}
+
+.v-tab_item {
+  flex: 1;
+  display: inline-block;
+  padding: 0 10rpx;
+  line-height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  color: #666;
+}
+
+.v-tab_title {
+  display: inline-block;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  word-break: keep-all;
+  font-size: 28rpx;
+  position: relative;
+}
+
+.v-tab_title::after {
+  content: ' ';
+  position: absolute;
+  bottom: 3rpx;
+  left: 0;
+  width: 100%;
+  height: 4rpx;
+  background: #f44;
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleX(0.78);
+  transition: 0.25s;
+}
+
+.v-tab_item.on {
+  color: #f44;
+}
+
+.v-tab_item.on .v-tab_title::after {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.v-tab-scroll {
+  display: block;
+  white-space: nowrap;
+}
+
+.v-tab-scroll .v-tab_item {
+  min-width: 160rpx;
+}

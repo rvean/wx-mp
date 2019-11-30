@@ -1,0 +1,17 @@
+<view style="{{ style }}" bindtouchstart="bindtouchstart" bindtouchmove="bindtouchmove" bindtouchend="bindtouchend">
+  <view class="v-refresh {{!visible ? 'v-refresh--hidden':''}} {{visible ? 'v-refresh--visible':''}} {{active ? 'v-refresh--active':''}} {{refreshing ? 'v-refresh--refreshing':''}} {{tail ? 'v-refresh--refreshing-tail':''}}">
+    <view class="v-refresh__content {{pullingText || refreshingText ? 'v-refresh__content--text':''}}">
+      <!-- 下拉箭头 -->
+      <view class="v-refresh__icon-pulling {{disablePullingRotation ? 'v-refresh__icon-pulling--disabled':''}}">
+        <text class="{{pullingIcon || 'v-refresh__icon--arrow-down'}}"></text>
+      </view>
+      <view class="v-refresh__text-pulling">{{ pullingText }}</view>
+      <!-- 加载动画 -->
+      <view class="v-refresh__icon-refreshing">
+        <text class="{{refreshingIcon || 'v-refresh__icon--refresher'}}"></text>
+      </view>
+      <view class="v-refresh__text-refreshing">{{ refreshingText }}</view>
+    </view>
+  </view>
+  <slot />
+</view>

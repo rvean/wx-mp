@@ -1,0 +1,15 @@
+<view class="v-navbar" style="height:{{navH}}px;background:{{bg}};">
+  <view class="v-navbar_action">
+    <!-- 返回上一页 -->
+    <view class="v-navbar_item" catchtap="navBack">
+      <v-icon type="arrow_left" size="44" color="{{iconColor}}" />
+    </view>
+    <!-- 返回首页 -->
+    <view class="v-navbar_item v-navbar_br" catchtap="onTapRight">
+      <slot wx:if="{{rightSlot}}" name="right" />
+      <v-icon wx:else type="home" size="42" color="{{iconColor}}" />
+    </view>
+  </view>
+  <!-- 标题 -->
+  <view class="v-navbar_title v-navbar_title-{{system}}" style="color:{{color}};">{{title}}</view>
+</view>
