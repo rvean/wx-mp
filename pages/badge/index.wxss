@@ -1,0 +1,28 @@
+.page {
+  padding: 80rpx;
+}
+
+.message {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  margin-bottom: 40rpx;
+}
+
+image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.v-badge1 {
+  position: absolute;
+  top: -16rpx;
+  right: -8rpx;
+}
+
+.v-badge2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

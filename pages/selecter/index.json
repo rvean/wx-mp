@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Select 选择",
+  "usingComponents": {
+    "v-select": "/components/v-selecter/index"
+  }
+}

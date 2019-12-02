@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "徽章 badge",
+  "usingComponents": {
+    "v-badge": "/components/v-badge/index"
+  }
+}

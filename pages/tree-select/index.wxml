@@ -1,0 +1,5 @@
+<view class="page">
+
+  <v-tree-select items="{{items}}" active-index="{{activeIndex}}" active-id="{{activeId}}" bind:click-item="onClickItem" bind:click-nav="onClickNav" />
+
+</view>

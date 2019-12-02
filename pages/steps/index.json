@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "步骤条 steps",
+  "usingComponents": {
+    "v-steps": "/components/v-steps/steps",
+    "v-step": "/components/v-steps/step"
+  }
+}

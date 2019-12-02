@@ -1,0 +1,5 @@
+<view class="page">
+  <v-tag color="blue">标签</v-tag>
+  <view class='title'>边框type="border"；颜色color</view>
+  <v-tag class="v-tags" name="标签" type="border" color="red">标签</v-tag>
+</view>

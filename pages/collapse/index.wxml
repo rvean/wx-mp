@@ -1,0 +1,35 @@
+<view class="page">
+  <view>
+    <v-collapse name="name1">
+      <v-collapse-item v-class-title="red-text" title="标题一" name="name1">
+        <view slot="content">内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一</view>
+      </v-collapse-item>
+
+      <v-collapse-item v-class-content="red-text" title="标题二" name="name2">
+        <view slot="content">内容二内容二内容二内容二内容二内容二内容二</view>
+      </v-collapse-item>
+
+      <v-collapse-item title="标题三" name="name3">
+        <view slot="content" class="red-text">内容三内容三内容三内容三内容三内容三内容三</view>
+      </v-collapse-item>
+    </v-collapse>
+  </view>
+
+  <view>
+    <view style='padding:30rpx;'>手风琴模式</view>
+
+    <v-collapse name="name1" accordion>
+      <v-collapse-item title="标题一" name="name1">
+        <view slot="content">内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一</view>
+      </v-collapse-item>
+
+      <v-collapse-item title="标题二" name="name2">
+        <view slot="content">内容二内容二内容二内容二内容二内容二内容二</view>
+      </v-collapse-item>
+
+      <v-collapse-item title="标题三" name="name3">
+        <view slot="content">内容三内容三内容三内容三内容三内容三内容三</view>
+      </v-collapse-item>
+    </v-collapse>
+  </view>
+</view>

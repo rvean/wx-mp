@@ -1,0 +1,6 @@
+<view class="page f-w">
+  <view class='item' wx:for="{{list}}" wx:key="*this">
+    <v-icon type="{{item}}" size="56" color="#80848f" />
+    <view>{{item}}</view>
+  </view>
+</view>

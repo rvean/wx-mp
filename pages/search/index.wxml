@@ -1,0 +1,21 @@
+<view class="page">
+
+  <view class="search-wrap">
+    <view class="search-location">广东</view>
+    <v-search class="search" radius="30" mode="static" placeholder="iphoneX" />
+    <v-icon class="search-icon" type="message" size="48" color="#fff" />
+  </view>
+
+  <view class="search-wrap search-wrap2">
+    <v-search class="search" showClear="{{true}}" bg-color="rgba(255, 255, 255, 0.18)" color="#fff" icon-color="rgba(255, 255, 255, 0.4)" ph-color="rgba(255, 255, 255, 0.4)" placeholder="请输入商品名称" />
+  </view>
+
+  <view class="search-wrap3">
+    <v-search class="search3" focus show-icon="{{false}}" bg-color="#fff" button="搜索" btn-color="#2CB42F" bind:input="onInput" bind:submit="submitForm" bind:confirm="onConfirm" />
+  </view>
+
+  <view class="search-wrap4">
+    <v-search class="search4" mode="static" align="center" bg-color="#fff" />
+  </view>
+
+</view>

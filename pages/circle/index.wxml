@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="sub-title">Color</view>
+  <v-circle percent="80" color="#33cd5f">#33cd5f</v-circle>
+
+  <view class="sub-title">bgColor</view>
+  <v-circle percent="80" bg-color="#ef473a">#ef473a</v-circle>
+
+  <view class="sub-title">Other</view>
+  <v-circle percent="{{ percent }}">{{ percent + '%' }}</v-circle>
+
+  <button class="v-btn" bindtap="add">Add</button>
+</view>

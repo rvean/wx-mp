@@ -1,0 +1,13 @@
+<view class="page">
+
+  <v-index height="100%" bind:change="onChange">
+
+    <v-index-item wx:for="{{cities}}" wx:key="{{index}}" name="{{item.key}}">
+      <view class="v-item" wx:for="{{item.list}}" wx:for-index="in" wx:key="{{in}}" wx:for-item="it">
+        {{it.name}}
+      </view>
+    </v-index-item>
+
+  </v-index>
+
+</view>

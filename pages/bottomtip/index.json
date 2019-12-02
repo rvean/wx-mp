@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "页底提示 bottomtip",
+  "usingComponents": {
+    "v-bottomtip": "/components/v-bottomtip/index"
+  }
+}

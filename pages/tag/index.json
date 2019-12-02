@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "标签 tag",
+  "usingComponents": {
+    "v-tag": "/components/v-tag/index"
+  }
+}

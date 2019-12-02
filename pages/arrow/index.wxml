@@ -1,0 +1,7 @@
+<view class="page">
+  <view class="arrow-left"></view>
+  <view class="arrow-right"></view>
+  <view class="arrow-down"></view>
+  <view class="arrow-up"></view>
+  <view class="triangle"></view>
+</view>

@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="v-btn">按钮</view>
+  <view class="v-btn v-warning">按钮</view>
+  <view class="v-btn v-danger">按钮</view>
+  <view class="v-btn v-disabled">按钮</view>
+  <view class="v-btn v-opacity">按钮</view>
+
+  <view class="h1">button</view>
+  <button class="v-btn">按钮</button>
+  <button class="v-btn v-danger">按钮</button>
+
+</view>

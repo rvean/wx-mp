@@ -1,0 +1,7 @@
+.page {
+  padding: 30rpx;
+}
+
+.v-btn {
+  margin: 25rpx 0;
+}

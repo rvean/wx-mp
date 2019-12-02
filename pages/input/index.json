@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "输入框 input",
+  "usingComponents": {
+    "v-input": "/components/v-input/index"
+  }
+}

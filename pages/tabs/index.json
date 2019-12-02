@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选项卡 tabs",
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/index"
+  }
+}

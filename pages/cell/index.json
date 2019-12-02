@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "列表/单元格 cell",
+  "usingComponents": {
+    "v-cell": "/components/v-cell/index",
+    "v-cell-group": "/components/v-cell-group/index",
+    "v-icon": "/components/v-icon/index"
+  }
+}

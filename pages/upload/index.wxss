@@ -1,0 +1,9 @@
+.page {
+  padding: 30rpx;
+}
+
+.sub-title {
+  font-size: 30rpx;
+  color: #666;
+  padding: 25rpx 0;
+}

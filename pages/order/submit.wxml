@@ -1,0 +1,63 @@
+<view class="page">
+  <scroll-view scroll-y class="scroll-view">
+    <!-- 地址 -->
+    <view class="address">
+      <block>
+        <!-- 地址为空 -->
+        <view class="address-null" wx:if="{{false}}">
+          <v-icon type="location" size="48" color="#999" />
+          <text>请添加收货地址</text>
+        </view>
+        <!-- 默认地址 -->
+        <view class="address-default" wx:else>
+          <view>
+            <text class="address-name">夏雨河</text>
+            <text>13631178195</text>
+          </view>
+          <view class="address-detail">广东省广州市天河区东圃大马路</view>
+        </view>
+      </block>
+      <image class="address-line" src="/images/icon/line.png" />
+    </view>
+
+    <!-- 商品 -->
+    <view class="goods-ul">
+      <view class="goods-li">
+        <image class="goods-img" mode="aspectFill" src="/images/logo1.png" />
+        <view class="goods-detail">
+          <view>
+            <view class="goods-title wbox">商品名称</view>
+            <view class="goods-spec">商品规格</view>
+          </view>
+
+          <view class="goods-bottom">
+            <view class="goods-price">￥56.50</view>
+            <view class="goods-num">× 2</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 商品总价 -->
+    <view class="order-li">
+      <text>商品总价</text>
+      <text class="order-li_text">¥57.50</text>
+    </view>
+    <!-- 运费 -->
+    <view class="order-li">
+      <text>运费</text>
+      <text class="order-li_text">¥1.00</text>
+    </view>
+
+  </scroll-view>
+
+  <!-- 底部导航 -->
+  <view class="sub-footer">
+    <view class="sub-footer_main">
+      <text>合计：</text>
+      <text>¥</text>
+      <text>50.50</text>
+    </view>
+    <button class="sub-footer_btn">提交订单</button>
+  </view>
+</view>

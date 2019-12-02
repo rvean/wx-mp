@@ -1,0 +1,33 @@
+<view class="page">
+
+  <view class="item">
+    <v-cell v-class="bg" title="标题" border="{{true}}" />
+  </view>
+
+  <view class="item">
+    <v-cell title="标题" label="描述" is-link value="详细信息" />
+  </view>
+
+  <view class="item">
+    <view class="title">列表</view>
+    <v-cell-group>
+      <v-cell title="图标icon" is-link url="/pages/icon/index">
+        <v-icon slot="icon" type="star_fill" />
+      </v-cell>
+
+      <v-cell title="图片" is-link url="/pages/icon/index">
+        <image style="width:32rpx;" mode="widthFix" slot="icon" src="/images/icon/notice.png" />
+      </v-cell>
+
+      <v-cell title="跳回首页" is-link link-type="switchTab" url="/pages/tabBar/index">
+        <v-icon slot="icon" type="home" />
+      </v-cell>
+
+      <v-cell title="只有点击 箭头内容 有效" is-link url="/pages/icon/index" only-tap-right>
+        <text slot="right">点我</text>
+      </v-cell>
+    </v-cell-group>
+
+  </view>
+
+</view>

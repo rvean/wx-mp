@@ -1,0 +1,10 @@
+<view class="page">
+
+  <v-navbar bg="#f74b4b" color="#fff" icon-color="#fff" title="标题"></v-navbar>
+
+  <v-navbar rightSlot>
+    <image slot="right" class="home-img" src="/images/icon-home.png" />
+  </v-navbar>
+
+
+</view>

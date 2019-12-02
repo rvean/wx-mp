@@ -1,0 +1,29 @@
+.page {
+  background: #f8f8f8;
+  padding-top: 50rpx;
+}
+
+.color1 {
+  color: #f40;
+}
+
+.code-input {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding-right: 30rpx;
+}
+
+.code-input_btn {
+  font-size: 24rpx;
+  color: #fff;
+  background: #33cd5f;
+  border-radius: 4rpx;
+  min-width: 200rpx;
+  text-align: center;
+  line-height: 58rpx;
+}
+
+.code-input_btn.disabled {
+  background: #aaa;
+}

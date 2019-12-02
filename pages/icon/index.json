@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图标 icon",
+  "usingComponents": {
+    "v-icon": "/components/v-icon/index"
+  }
+}

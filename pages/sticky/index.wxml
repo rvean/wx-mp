@@ -1,0 +1,28 @@
+<view class="page">
+  <!-- sticky -->
+  <v-sticky scrollTop="{{scrollTop}}">
+    <!-- sticky-item -->
+    <v-sticky-item v-class="sticky-title">
+      <view slot="title">标题一</view>
+      <view slot="content">
+        <view class="item" wx:for="{{8}}" wx:key="*this">{{item}}</view>
+      </view>
+    </v-sticky-item>
+    <!-- sticky-item -->
+    <v-sticky-item v-class="sticky-title">
+      <view slot="title">标题二</view>
+      <view slot="content">
+        <view class="item" wx:for="{{9}}" wx:key="*this">{{item+1}}</view>
+      </view>
+    </v-sticky-item>
+    <!-- sticky-item -->
+    <v-sticky-item v-class="sticky-title">
+      <view slot="title">标题三</view>
+      <view slot="content">
+        <view class="item" wx:for="{{18}}" wx:key="*this">{{item+2}}</view>
+      </view>
+    </v-sticky-item>
+
+  </v-sticky>
+
+</view>

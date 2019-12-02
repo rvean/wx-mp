@@ -1,0 +1,22 @@
+.page {
+  padding: 50rpx;
+}
+
+.input {
+  width: 100%;
+  border: 2rpx solid #ddd;
+  padding-left: 20rpx;
+  height: 70rpx;
+  line-height: 40rpx;
+  border-radius: 8rpx;
+}
+
+.tip {
+  font-size: 26rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.barcode {
+  margin: 30px auto;
+}

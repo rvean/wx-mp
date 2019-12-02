@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "评分 rate",
+  "usingComponents": {
+    "v-rate": "/components/v-rate/index"
+  }
+}

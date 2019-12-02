@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "条形码 barcode",
+  "usingComponents": {
+    "v-barcode": "/components/v-barcode/index"
+  }
+}

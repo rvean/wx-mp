@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "滑动单元格 swipe-cell",
+  "usingComponents": {
+    "v-swipe-cell": "/components/v-swipe-cell/index"
+  }
+}

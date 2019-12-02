@@ -1,0 +1,13 @@
+<view class="page">
+
+  <view class="item">
+    <view class="title">基本用法</view>
+    <v-select items="{{items}}" data-type="base" checkedValue="{{checked.base}}" bind:change="select" />
+  </view>
+
+  <view class="item">
+    <view class="title">自定义高亮颜色</view>
+    <v-select items="{{items}}" data-type="color" checkedValue="{{checked.color}}" activeColor="#4b0" bind:change="select" />
+  </view>
+
+</view>

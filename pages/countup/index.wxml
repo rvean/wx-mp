@@ -1,0 +1,14 @@
+<view class="page">
+
+  <view class="text-center">
+    <view class="countup">{{ c1 }}</view>
+    <view class="countup">{{ c2 }}</view>
+    <view class="countup">{{ c3 }}</view>
+  </view>
+
+  <view class="v-btn" bindtap="start">Start</view>
+  <view class="v-btn" bindtap="pauseResume">Pause/Resume</view>
+  <view class="v-btn" bindtap="reset">Reset</view>
+  <view class="v-btn" bindtap="update">Update</view>
+
+</view>

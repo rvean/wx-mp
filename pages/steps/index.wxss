@@ -1,0 +1,14 @@
+.page {
+  padding: 30rpx;
+}
+
+.sub-title {
+  padding: 30rpx 0;
+  font-size: 32rpx;
+  color: #abf;
+}
+
+.v-btn {
+  width: 90%;
+  margin: 30rpx auto;
+}

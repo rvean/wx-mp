@@ -1,0 +1,26 @@
+.page {
+  padding: 30rpx;
+}
+
+.arrow-right, .arrow-left, .arrow-down, .arrow-up {
+  width: 36rpx;
+  height: 36rpx;
+  display: inline-block;
+  margin: 10rpx;
+}
+
+.arrow-left::after {
+  right: 5rpx;
+}
+
+.arrow-right::after {
+  right: 15rpx;
+}
+
+.arrow-down::after {
+  right: 8rpx;
+}
+
+.arrow-up::after {
+  right: 9rpx;
+}

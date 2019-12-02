@@ -1,0 +1,7 @@
+.page {
+  padding: 30rpx;
+}
+
+.h4 {
+  margin: 30rpx 0;
+}

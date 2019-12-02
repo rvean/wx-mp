@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "字母索引列表 index-list",
+  "usingComponents": {
+    "v-index": "/components/v-index/index",
+    "v-index-item": "/components/v-index-item/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "头像 avatar",
+  "usingComponents": {
+    "v-avatar": "/components/v-avatar/index"
+  }
+}

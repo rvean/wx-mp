@@ -2,114 +2,132 @@ const app = getApp()
 
 Page({
   data: {
-    ls: [{
-      title: '自定义导航栏 navbar',
-      path: 'navbar/index'
+    list: [{
+      title: '基础组件',
+      ls: [{
+        title: 'Icon 图标',
+        path: 'icon/index'
+      }, {
+        title: '箭头 三角形',
+        path: 'arrow/index'
+      }, {
+        title: 'Btn 按钮',
+        path: 'btn/index'
+      }, ]
     }, {
-      title: '箭头 三角形',
-      path: 'arrow/index'
+      title: '导航组件',
+      ls: [{
+        title: 'Navbar 自定义导航栏',
+        path: 'navbar/index'
+      }, {
+        title: 'IndexList 字母索引列表',
+        path: 'index-list/index'
+      }, {
+        title: 'Tabs 选项卡',
+        path: 'tabs/index'
+      }, {
+        title: 'Grid 宫格布局',
+        path: 'grid/index'
+      }, ]
     }, {
-      title: '头像 avatar',
-      path: 'avatar/index'
+      title: '视图组件',
+      ls: [{
+        title: 'Avatar 头像',
+        path: 'avatar/index'
+      }, {
+        title: 'Badge 徽章',
+        path: 'badge/index'
+      }, {
+        title: 'Progress 进度条',
+        path: 'progress/index'
+      }, {
+        title: 'Circle 环形进度条',
+        path: 'circle/index'
+      }, {
+        title: 'Collapse 折叠面板',
+        path: 'collapse/index'
+      }, {
+        title: 'CountDown 倒计时',
+        path: 'count-down/index'
+      }, {
+        title: 'Countup 数字动画',
+        path: 'countup/index'
+      }, {
+        title: 'Noticebar 通告栏',
+        path: 'noticebar/index'
+      }, {
+        title: 'Tag 标签',
+        path: 'tag/index'
+      }, {
+        title: 'Sticky 吸顶容器',
+        path: 'sticky/index'
+      }, {
+        title: 'Timeago 多久之前',
+        path: 'timeago/index'
+      }, {
+        title: 'Steps 步骤条',
+        path: 'steps/index'
+      }, ]
     }, {
-      title: '徽章 badge',
-      path: 'badge/index'
+      title: '表单组件',
+      ls: [{
+        title: 'Cell 列表/单元格 ',
+        path: 'cell/index'
+      }, {
+        title: 'Input 输入框',
+        path: 'input/index'
+      }, {
+        title: 'Rate 评分',
+        path: 'rate/index'
+      }, {
+        title: 'Radio 单选/复选',
+        path: 'radio/index'
+      }, {
+        title: 'Counter 加减输入框',
+        path: 'counter/index'
+      }, {
+        title: 'Search 搜索栏',
+        path: 'search/index'
+      }, {
+        title: 'Selecter 列表选择',
+        path: 'selecter/index'
+      }, {
+        title: 'SwipeCell 滑动单元格',
+        path: 'swipe-cell/index'
+      }, {
+        title: 'TreeSelect 分类选择',
+        path: 'tree-select/index'
+      }, {
+        title: 'Upload 上传文件',
+        path: 'upload/index'
+      }, ]
     }, {
-      title: '条形码 barcode',
-      path: 'barcode/index'
+      title: '反馈组件',
+      ls: [{
+        title: 'Bottomtip 页底提示',
+        path: 'bottomtip/index'
+      }, {
+        title: 'Toptip 顶部提示',
+        path: 'toptip/index'
+      }, ]
     }, {
-      title: '二维码 qrcode',
-      path: 'qrcode/index'
-    }, {
-      title: '页底提示 bottomtip',
-      path: 'bottomtip/index'
-    }, {
-      title: '按钮 btn',
-      path: 'btn/index'
-    }, {
-      title: '列表/单元格 cell',
-      path: 'cell/index'
-    }, {
-      title: '环形进度条 circle',
-      path: 'circle/index'
-    }, {
-      title: '折叠面板 collapse',
-      path: 'collapse/index'
-    }, {
-      title: '倒计时 count-down',
-      path: 'count-down/index'
-    }, {
-      title: '加减输入框 counter',
-      path: 'counter/index'
-    }, {
-      title: '数字动画 countup',
-      path: 'countup/index'
-    }, {
-      title: '宫格布局 grid',
-      path: 'grid/index'
-    }, {
-      title: '图标 icon',
-      path: 'icon/index'
-    }, {
-      title: '字母索引列表 index-list',
-      path: 'index-list/index'
-    }, {
-      title: '输入框 input',
-      path: 'input/index'
-    }, {
-      title: '通告栏 noticebar',
-      path: 'noticebar/index'
-    }, {
-      title: '进度条 progress',
-      path: 'progress/index'
-    }, {
-      title: '评分 rate',
-      path: 'rate/index'
-    }, {
-      title: '下拉刷新 refresher',
-      path: 'refresher/index'
-    }, {
-      title: '单选/复选 radio',
-      path: 'radio/index'
-    }, {
-      title: '搜索栏 search',
-      path: 'search/index'
-    }, {
-      title: '列表选择 selecter',
-      path: 'selecter/index'
-    }, {
-      title: '步骤条 steps',
-      path: 'steps/index'
-    }, {
-      title: '吸顶容器 sticky',
-      path: 'sticky/index'
-    }, {
-      title: '滑动单元格 swipe-cell',
-      path: 'swipe-cell/index'
-    }, {
-      title: '选项卡 tabs',
-      path: 'tabs/index'
-    }, {
-      title: '标签 tag',
-      path: 'tag/index'
-    }, {
-      title: '多久之前 timeago',
-      path: 'timeago/index'
-    }, {
-      title: '顶部提示 toptip',
-      path: 'toptip/index'
-    }, {
-      title: '分类选择 tree-select',
-      path: 'tree-select/index'
-    }, {
-      title: '上传 upload',
-      path: 'upload/index'
-    }, {
-      title: '商品详情 goods/detail',
-      path: 'goods/detail'
-    }, {
-      title: '提交订单 order/submit',
-      path: 'order/submit'
+      title: '业务组件',
+      ls: [{
+        title: 'Barcode 条形码',
+        path: 'barcode/index'
+      }, {
+        title: 'Qrcode 二维码',
+        path: 'qrcode/index'
+      }, {
+        title: 'GoodsDetail 商品详情 ',
+        path: 'goods/detail'
+      }, {
+        title: 'OrderSubmit 提交订单',
+        path: 'order/submit'
+      }, {
+        title: 'Refresher 下拉刷新',
+        path: 'refresher/index'
+      }, ]
     }]
   },
   onLoad() {

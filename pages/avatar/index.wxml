@@ -1,0 +1,14 @@
+<view class="page">
+
+  <view class='title' style='font-size:32rpx;'>图片路径无效时，以名字首个字为头像</view>
+
+  <view class='title'>大小size,单位rpx；圆角radius,默认50%；文字name,图片为空时有效；图片mode；图片外部样式v-class</view>
+
+  <v-avatar v-class="bor" src="/images/logo.png" mode="aspectFill" size="200" radius="20rpx" name="毕大" />
+
+  <view class='title'>字体大小font-size；字体背景bg-color；字体颜色color</view>
+
+  <v-avatar style="display: inline-block;" src="" font-size="50" bg-color="#aaa" color="#eff" name="elao" />
+  <v-avatar class="ind" name="李大爷" />
+
+</view>

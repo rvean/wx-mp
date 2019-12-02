@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "顶部提示 toptip",
+  "usingComponents": {
+    "v-toptip": "/components/v-toptip/index"
+  }
+}

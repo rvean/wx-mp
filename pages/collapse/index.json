@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "折叠面板 collapse",
+  "usingComponents": {
+    "v-collapse": "/components/v-collapse/index",
+    "v-collapse-item": "/components/v-collapse-item/index"
+  }
+}

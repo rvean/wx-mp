@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "倒计时 count-down",
+  "usingComponents": {
+    "v-countdown": "/components/v-countdown/index"
+  }
+}

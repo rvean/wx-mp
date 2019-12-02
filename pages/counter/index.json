@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加减 counter",
+  "usingComponents": {
+    "v-counter": "/components/v-counter/index"
+  }
+}

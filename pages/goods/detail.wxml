@@ -1,0 +1,33 @@
+<view class="page">
+  <scroll-view scroll-y class="scroll-view">
+    <!-- 轮播图 -->
+    <swiper class="swiper" indicator-dots indicator-color="rgba(206,206,206,.8)" indicator-active-color="#2487e9">
+      <swiper-item wx:for="{{banner}}" wx:key="*this">
+        <image mode="aspectFill" src="{{item}}" />
+      </swiper-item>
+    </swiper>
+
+  </scroll-view>
+
+  <!-- 商品底部导航 -->
+  <view class="gd-footer">
+    <view class="gd-footer_ls">
+      <button open-type="contact" class="gd-footer_li">
+        <v-icon type="service" size="48" color="#666" />
+        <view class="gd-footer_text">客服</view>
+      </button>
+      <view class="gd-footer_li">
+        <v-icon type="commodity" size="48" color="#666" />
+        <view class="gd-footer_text">购物车</view>
+        <view class="gd-footer_info">2</view>
+      </view>
+      <view class="gd-footer_li">
+        <v-icon type="shop_fill" size="48" color="#666" />
+        <view class="gd-footer_text">店铺</view>
+      </view>
+    </view>
+
+    <button class="gd-footer_btn">加入购物车</button>
+    <button class="gd-footer_btn">立即购买</button>
+  </view>
+</view>

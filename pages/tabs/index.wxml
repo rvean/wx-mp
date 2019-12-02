@@ -1,0 +1,11 @@
+<view class="page">
+
+  <view>
+    <v-tabs list="{{tab1.list}}" tabId="{{tab1.tabId}}" fixed />
+  </view>
+
+  <view style="margin: 30px 0">
+    <v-tabs list="{{tab2.list}}" tabId="{{tab2.tabId}}" scroll height="{{tab2.height}}" />
+  </view>
+
+</view>

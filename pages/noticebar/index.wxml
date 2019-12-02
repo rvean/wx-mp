@@ -1,0 +1,18 @@
+<view class="page">
+
+  <view class="item">
+    <view class="title">图标路径left-icon/背景bg-color/字体颜色color/是否滚动scrollable/延时delay/速度speed</view>
+    <v-noticebar text="{{text}}" left-icon="{{leftIcon}}" bg-color="#fff7cc" color="#f60" scrollable="true" delay="1000" speed="50" />
+  </view>
+
+  <view class="item">
+    <view class="title">可关闭公告 mode="closeable"</view>
+    <v-noticebar text="{{text}}" mode="close" scrollable="true" />
+  </view>
+
+  <view class="item">
+    <view class="title">可跳转mode="link" 跳转路径url open-type默认navigate</view>
+    <v-noticebar text="{{text}}" mode="link" url="/pages/icon/index" open-type="navigate" />
+  </view>
+
+</view>

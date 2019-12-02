@@ -1,0 +1,6 @@
+.item {
+  width: 25%;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 30rpx 0;
+}

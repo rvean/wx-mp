@@ -1,0 +1,17 @@
+.page {
+  padding: 100rpx 30rpx 0;
+}
+
+.title {
+  font-size: 26rpx;
+  color: #abc;
+  padding: 30rpx 0;
+}
+
+.ind {
+  display: inline-block;
+}
+
+.bor {
+  border: 4rpx solid #000;
+}

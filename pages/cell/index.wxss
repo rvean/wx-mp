@@ -1,0 +1,24 @@
+.page {
+  background: #f6f6f6;
+  padding-top: 30rpx;
+  min-height: 100%;
+}
+
+.item {
+  margin-bottom: 30rpx;
+}
+
+.title {
+  padding: 30rpx;
+  font-size: 28rpx;
+}
+
+.bg {
+  background: #abc !important;
+  color: #fff;
+}
+
+.bg::after {
+  left: 0 !important;
+  border-color: #f12 !important;
+}

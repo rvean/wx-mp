@@ -1,0 +1,38 @@
+<view class="page">
+
+  <v-grids>
+    <v-grid thumb="/images/logo.png" label="1" />
+    <v-grid thumb="/images/logo.png" label="2" />
+    <v-grid thumb="/images/logo.png" label="3" />
+    <v-grid thumb="/images/logo.png" label="4" />
+    <v-grid thumb="/images/logo.png" label="5" />
+    <v-grid thumb="/images/logo.png" label="6" />
+    <v-grid thumb="/images/logo.png" label="7" />
+    <v-grid thumb="/images/logo.png" label="8" />
+    <v-grid thumb="/images/logo.png" label="9" />
+  </v-grids>
+
+  <view style='padding:30rpx;color:#abc;'>bordered线框、square正方形、列数col</view>
+
+  <v-grids bordered="{{false}}" square="{{false}}" col="4">
+    <v-grid thumb="/images/logo.png" label="1" />
+    <v-grid thumb="/images/logo.png" label="2" />
+    <v-grid thumb="/images/logo.png" label="3" />
+    <v-grid thumb="/images/logo.png" label="4" />
+    <v-grid thumb="/images/logo.png" label="5" />
+    <v-grid thumb="/images/logo.png" label="6" />
+    <v-grid thumb="/images/logo.png" label="7" />
+    <v-grid thumb="/images/logo.png" label="8" />
+    <v-grid thumb="/images/logo.png" label="9" />
+  </v-grids>
+
+  <view style='padding:30rpx;color:#abc;'>自定义内容</view>
+
+  <v-grids>
+    <v-grid>
+      <image class='g-img' mode='widthFix' src='/images/logo1.png' />
+      <view class='g-text'>1</view>
+    </v-grid>
+  </v-grids>
+
+</view>

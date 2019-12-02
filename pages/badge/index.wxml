@@ -1,0 +1,24 @@
+<view class="page">
+
+  <view class="message">
+    <image src="{{img}}" />
+    <v-badge class="v-badge1" value="2" />
+    <!-- <v-badge class="v-badge1">2</v-badge> -->
+  </view>
+
+  <view class="message">
+    <image src="{{img}}" />
+    <v-badge class="v-badge1" value="230" max="99" />
+  </view>
+
+  <view class="message">
+    <image src="{{img}}" />
+    <v-badge class="v-badge1" value="new" />
+  </view>
+
+  <view class="message">
+    <image src="{{img}}" />
+    <v-badge class="v-badge2" type="dot" />
+  </view>
+
+</view>

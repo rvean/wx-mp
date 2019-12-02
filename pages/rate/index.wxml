@@ -1,0 +1,18 @@
+<view class="page">
+
+  <view>
+    <view>可滑动选择</view>
+    <v-rate value="{{starIndex1}}" color="#f40" count="{{7}}" size="64" data-id="starIndex1" bind:change="onChange" />
+  </view>
+
+  <view>
+    <view>文字说明</view>
+    <v-rate data-id="starIndex2" bind:change="onChange" value="{{starIndex2}}"> {{starIndex2}}星 </v-rate>
+  </view>
+
+  <view>
+    <view>禁用</view>
+    <v-rate disabled="{{true}}" value="{{starIndex3}}" />
+  </view>
+
+</view>

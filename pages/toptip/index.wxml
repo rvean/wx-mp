@@ -1,0 +1,10 @@
+<view class="page">
+
+  <view class="v-btn" bindtap="handleDefault">默认提醒</view>
+  <view class="v-btn" bindtap="handleSuccess">成功提醒</view>
+  <view class="v-btn" bindtap="handleWarning">警告提醒</view>
+  <view class="v-btn" bindtap="handleError">错误提醒</view>
+  <view class="v-btn" bindtap="handleDuration">自定义持续时间</view>
+
+  <v-toptip id="toptip" />
+</view>

@@ -1,0 +1,10 @@
+<v-refresher id="v-refresher" bind:pulling="onPulling" bind:refresh="onRefresh">
+
+  <view>
+    <view class="item" wx:for="{{items}}" wx:key="{{index}}">
+      <view>{{item.title}}</view>
+      <view>{{item.content}}</view>
+    </view>
+  </view>
+
+</v-refresher>

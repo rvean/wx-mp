@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "环形进度条 circle",
+  "usingComponents": {
+    "v-circle": "/components/v-circle/index"
+  }
+}

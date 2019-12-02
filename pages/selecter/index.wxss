@@ -1,0 +1,7 @@
+.page {
+  background: #f9f9f9;
+  height: 100%;
+}
+.title {
+  padding: 20rpx;
+}

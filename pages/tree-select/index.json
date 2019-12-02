@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分类选择 tree-select",
+  "usingComponents": {
+    "v-tree-select": "/components/v-tree-select/index"
+  }
+}

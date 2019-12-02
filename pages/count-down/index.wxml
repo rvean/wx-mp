@@ -1,0 +1,13 @@
+<view class="page">
+  <v-countdown v-class="count" target="{{endDate}}" />
+  <v-countdown show-day="{{true}}" target="{{endDate}}" />
+  <view>
+    <v-countdown target="{{targetTime}}" format="{{myFormat1}}" />
+  </view>
+  <view>
+    <v-countdown target="{{targetTime}}" show-day="{{true}}" format="{{myFormat}}" bind:callback="endCallback" />
+  </view>
+  <view style='margin-top:50rpx;'>这是回调： {{text}}</view>
+
+
+</view>

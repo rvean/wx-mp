@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "宫格 grid",
+  "usingComponents": {
+    "v-grids": "/components/v-grid/grids",
+    "v-grid": "/components/v-grid/grid"
+  }
+}

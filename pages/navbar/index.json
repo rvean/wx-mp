@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "v-navbar": "/components/v-navbar/index",
+    "v-icon": "/components/v-icon/index"
+  }
+}

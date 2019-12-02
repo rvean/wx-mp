@@ -1,0 +1,5 @@
+<view class="page">
+  <v-bottomtip loading="{{true}}" />
+  <v-bottomtip tip="暂无数据" />
+  <v-bottomtip />
+</view>

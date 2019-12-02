@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "多久之前 timeago",
+  "usingComponents": {
+    "v-timeago": "/components/v-timeago/index"
+  }
+}

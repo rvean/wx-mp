@@ -1,0 +1,17 @@
+<view class="page">
+
+  <view style='padding:30rpx;'>单选</view>
+  <v-radio-group current="{{current1}}" bindchange="onChange1">
+    <v-radio wx:for="{{fruit}}" wx:key="{{item.id}}" border value="{{item.name}}" position="{{position}}" />
+  </v-radio-group>
+
+  <view style='padding:30rpx;'>复选</view>
+  <v-radio-group current="{{current2}}" type="checkbox" bindchange="onChange2">
+    <v-radio wx:for="{{fruit}}" wx:key="{{item.id}}" border value="{{item.name}}" />
+  </v-radio-group>
+
+  <view style='padding:30rpx;'>单个</view>
+  <v-radio value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" bindchange="onChange3" />
+  <view catchtap="handleDisabled" class="v-btn">切换disabled状态</view>
+
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "吸顶容器 sticky",
+  "usingComponents": {
+    "v-sticky": "/components/v-sticky/index",
+    "v-sticky-item": "/components/v-sticky-item/index"
+  }
+}

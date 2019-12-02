@@ -1,0 +1,20 @@
+<view class="page">
+  <v-input value="{{value1}}" title="收货人" clearable border focus placeholder="名字" />
+
+  <v-input value="{{value3}}" type="textarea" clearable title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
+  <v-input value="{{value4}}" title="用户信息" disabled />
+  <v-input value="{{value5}}" v-class="color1" placeholder-style="color:#f40" bg-color="#eee" placeholder="请输入收货人姓名" />
+
+  <view style="padding:20rpx">输入框</view>
+
+  <v-input value="{{value6}}" type="number" border clearable right title="消费总额" mode="wrapped" placeholder="询问收银员后输入" />
+  <v-input value="{{value7}}" type="number" border right error title="不参与优惠金额" mode="wrapped" placeholder="询问收银员后输入" />
+
+  <!-- 发送验证码 -->
+  <v-input id="phone" bindinput="bindinput" value="{{phone}}" type="number" title="手机号" placeholder="请输入手机号" maxlength="11" clearable border />
+  <view class="code-input">
+    <v-input id="code" bindinput="bindinput" class="f1" value="{{code}}" title="验证码" maxlength="8" placeholder="请输入验证码" />
+    <view class="code-input_btn {{isGetting ? 'disabled':''}}" catchtap="getCode">{{!isGetting ? '获取验证码' : time+'s后重新发送'}}</view>
+  </view>
+
+</view>

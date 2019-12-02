@@ -1,0 +1,11 @@
+.countup {
+  text-align: center;
+  font-size: 50rpx;
+  color: #abc;
+  padding: 30rpx 0;
+}
+
+.v-btn {
+  width: 86%;
+  margin: 30rpx auto;
+}

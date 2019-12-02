@@ -1,0 +1,13 @@
+.page {
+  padding: 30rpx 0;
+}
+
+.g-img {
+  width: 100rpx;
+  margin: 0 auto 20rpx;
+}
+
+.g-text {
+  font-size: 32rpx;
+  color: #cea;
+}
