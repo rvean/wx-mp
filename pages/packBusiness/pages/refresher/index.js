@@ -1,6 +1,6 @@
 import {
   $stopRefresh
-} from '../../components/base/index'
+} from '../../../../components/base/index'
 
 Page({
   data: {

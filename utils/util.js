@@ -57,6 +57,9 @@ const dt = {
     const spArr = sp ? [sp, sp, ''] : ['年', '月', '日']
     return year + spArr[0] + (mon < 10 ? '0' + mon : mon) + spArr[1] + (day < 10 ? '0' + day : day) + spArr[2]
   },
+  zero(n) {
+
+  },
   // 获取今天星期
   getWeek(d) {
     d = d || new Date()

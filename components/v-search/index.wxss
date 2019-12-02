@@ -59,7 +59,7 @@
   z-index: 3;
 }
 
-.v-search_button {
+button.v-search_button {
   width: 120rpx;
   height: 60rpx;
   line-height: 60rpx;
@@ -68,6 +68,7 @@
   background: none;
   padding-left: 0;
   padding-right: 0;
+  font-weight: normal;
 }
 
 .v-search_button::after {

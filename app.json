@@ -1,43 +1,81 @@
 {
   "pages": [
     "pages/tabBar/index",
-    "pages/goods/detail",
-    "pages/navbar/index",
-    "pages/refresher/index",
-    "pages/arrow/index",
-    "pages/circle/index",
-    "pages/timeago/index",
-    "pages/steps/index",
-    "pages/countup/index",
-    "pages/qrcode/index",
-    "pages/barcode/index",
-    "pages/upload/index",
-    "pages/grid/index",
-    "pages/order/submit",
-    "pages/tree-select/index",
-    "pages/input/index",
-    "pages/tabs/index",
-    "pages/counter/index",
-    "pages/search/index",
-    "pages/selecter/index",
-    "pages/radio/index",
-    "pages/icon/index",
-    "pages/rate/index",
-    "pages/bottomtip/index",
-    "pages/collapse/index",
-    "pages/count-down/index",
-    "pages/avatar/index",
-    "pages/tag/index",
-    "pages/swipe-cell/index",
-    "pages/toptip/index",
-    "pages/sticky/index",
-    "pages/index-list/index",
-    "pages/cell/index",
-    "pages/badge/index",
-    "pages/progress/index",
-    "pages/noticebar/index",
-    "pages/btn/index",
     "pages/tabBar/mine"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/packBase/",
+      "name": "packBase",
+      "pages": [
+        "pages/arrow/index",
+        "pages/btn/index",
+        "pages/icon/index"
+      ]
+    },
+    {
+      "root": "pages/packBusiness/",
+      "name": "packBusiness",
+      "pages": [
+        "pages/barcode/index",
+        "pages/qrcode/index",
+        "pages/goods/detail",
+        "pages/order/submit",
+        "pages/refresher/index"
+      ]
+    },
+    {
+      "root": "pages/packFeedback/",
+      "name": "packFeedback",
+      "pages": [
+        "pages/bottomtip/index",
+        "pages/toptip/index"
+      ]
+    },
+    {
+      "root": "pages/packForm/",
+      "name": "packForm",
+      "pages": [
+        "pages/cell/index",
+        "pages/counter/index",
+        "pages/input/index",
+        "pages/radio/index",
+        "pages/rate/index",
+        "pages/search/index",
+        "pages/selecter/index",
+        "pages/swipe-cell/index",
+        "pages/tree-select/index",
+        "pages/upload/index"
+      ]
+    },
+    {
+      "root": "pages/packNav/",
+      "name": "packNav",
+      "pages": [
+        "pages/grid/index",
+        "pages/index-list/index",
+        "pages/navbar/index",
+        "pages/tabs/index"
+      ]
+    },
+    {
+      "root": "pages/packView/",
+      "name": "packView",
+      "pages": [
+        "pages/avatar/index",
+        "pages/badge/index",
+        "pages/circle/index",
+        "pages/collapse/index",
+        "pages/count-down/index",
+        "pages/countup/index",
+        "pages/noticebar/index",
+        "pages/progress/index",
+        "pages/steps/index",
+        "pages/sticky/index",
+        "pages/tag/index",
+        "pages/timeago/index"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",

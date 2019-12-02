@@ -1,6 +1,6 @@
 const {
   $toptip
-} = require('../../components/base/index');
+} = require('../../../../components/base/index');
 
 Page({
   handleDefault() {

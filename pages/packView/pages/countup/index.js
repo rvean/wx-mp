@@ -1,4 +1,4 @@
-import $countUp from '../../components/v-countup/index'
+import $countUp from '../../../../components/v-countup/index'
 
 Page({
   data: {
