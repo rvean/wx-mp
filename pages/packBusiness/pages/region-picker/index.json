@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "RegionPicker 省市区选择",
+  "usingComponents": {
+    "region-picker": "/components/v-region-picker/index"
+  }
+}

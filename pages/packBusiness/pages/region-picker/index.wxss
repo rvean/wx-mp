@@ -1,0 +1,20 @@
+.address {
+  padding: 80rpx 60rpx 0;
+}
+
+.address input {
+  display: block;
+  width: 100%;
+  border-radius: 6rpx;
+  border: 2rpx solid #ddd;
+  height: 80rpx;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.tip {
+  font-size: 30rpx;
+  padding: 50rpx;
+  color: #666;
+}

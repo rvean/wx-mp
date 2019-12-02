@@ -1,0 +1,9 @@
+<view class="page">
+  <view class="address">
+    <region-picker target="{{region}}" bindchange="regionPicker">
+      <input disabled value="{{region[0] ? region[0] +' '+ region[1] +' '+region[2] : ''}}" placeholder="请选择 省 市 区" />
+    </region-picker>
+  </view>
+
+  <view class="tip">省市区数据自定义</view>
+</view>

@@ -21,7 +21,8 @@
         "pages/qrcode/index",
         "pages/goods/detail",
         "pages/order/submit",
-        "pages/refresher/index"
+        "pages/refresher/index",
+        "pages/region-picker/index"
       ]
     },
     {

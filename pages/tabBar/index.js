@@ -13,7 +13,7 @@ Page({
       }, {
         title: 'Btn 按钮',
         path: '/pages/packBase/pages/btn/index'
-      },]
+      }, ]
     }, {
       title: '导航组件',
       ls: [{
@@ -28,7 +28,7 @@ Page({
       }, {
         title: 'Grid 宫格布局',
         path: '/pages/packNav/pages/grid/index'
-      },]
+      }, ]
     }, {
       title: '视图组件',
       ls: [{
@@ -67,7 +67,7 @@ Page({
       }, {
         title: 'Steps 步骤条',
         path: '/pages/packView/pages/steps/index'
-      },]
+      }, ]
     }, {
       title: '表单组件',
       ls: [{
@@ -100,7 +100,7 @@ Page({
       }, {
         title: 'Upload 上传文件',
         path: '/pages/packForm/pages/upload/index'
-      },]
+      }, ]
     }, {
       title: '反馈组件',
       ls: [{
@@ -109,7 +109,7 @@ Page({
       }, {
         title: 'Toptip 顶部提示',
         path: '/pages/packFeedback/pages/toptip/index'
-      },]
+      }, ]
     }, {
       title: '业务组件',
       ls: [{
@@ -127,7 +127,10 @@ Page({
       }, {
         title: 'Refresher 下拉刷新',
         path: '/pages/packBusiness/pages/refresher/index'
-      },]
+      }, {
+        title: 'RegionPicker 省市区选择',
+        path: '/pages/packBusiness/pages/region-picker/index'
+      }, ]
     }]
   },
   onLoad() {
